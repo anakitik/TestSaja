@@ -1,0 +1,197 @@
+body    
+{   
+    background-color:#FFFFFF;
+    background-size: cover; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+form {
+    width:400px;
+    margin-left:1000px ;
+}
+.search {
+    position: absolute;
+    width: 550px;
+    height: 46px;
+    left: 568px;
+    top: 82px;
+    background: #8F1616;
+}
+.logo {
+    position: absolute;
+    width: 43px;
+    height: 70px;
+    left: 1112px;
+    top: 87px;
+}
+.button {
+    position: absolute;
+    width: 60px;
+    height: 52px;
+    left: 1110px;
+    top: 82px;
+    
+    background: #ffffff;
+}
+::-webkit-input-placeholder { /* For WebKit browsers */
+    color:#ffffff;
+    font-family:Nunito;
+    font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color:#ffffff;
+    font-family:Nunito;
+    font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color:#ffffff;
+    font-family:Nunito;
+    font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+    color:#ffffff;
+    font-family:Nunito;
+    font-weight:bold;
+}    
+.bg{
+    position: absolute;
+    width: 1120px;
+    height: 1360px;
+    left:20px;
+    top : 148px;
+
+    background : #3A3E4A;
+    border-radius: 10px;
+    margin-left:  55px
+}
+h2{
+    color: black;
+    font-size: 20;
+    font-family:Nunito;
+    font-weight:bold;
+    top: px;
+    float: left;
+    margin-left: 20px  
+}
+.buku-mtk{
+    position: absolute;
+    width: 120px;
+    height:155px;
+    left: 3px;
+    top: 29px;
+
+    filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+    margin-left:20px;
+    border-radius: 5px;
+}
+.buku-ipas{
+    position: absolute;
+    width: 120px;
+    height: 155px;
+    left: 185px;
+    top: 29px;
+
+filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+}
+.buku-pkn{
+    position: absolute;
+    width: 120px;
+    height: 155px;
+    left: 345px;
+    top: 29px;
+
+filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+}
+.buku-it{
+    position: absolute;
+    width: 120px;
+    height: 155px;
+    left: 505px;
+    top: 29px;
+
+filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+}
+.buku-bindo{
+    position: absolute;
+width: 120px;
+height: 155px;
+left: 665px;
+top: 29px;
+
+filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+}
+.buku-sejarah{
+    position: absolute;
+width: 120px;
+height: 155px;
+right: 175px;
+top: 29px;
+
+filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+}
+.buku-pai{
+    position: absolute;
+width: 120px;
+height: 155px;
+right: 20px;
+top: 29px;
+
+filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+}
+.kotak{
+    /* Rectangle 4019 */
+
+    position: absolute;
+    width: 1120px;
+    height: 220px;
+    left: 75px;
+    top: 249px;
+
+    background: #8F1616;
+    margin-right: 100px;
+}
+.kotak2{
+ /* Rectangle 4019 */
+
+ position: absolute;
+ width: 1120px;
+ height: 220px;
+ left: 75px;
+ top: 585px;
+
+ background: #8F1616;
+ margin-right: 100px;
+}
+
+.kotak3{
+    /* Rectangle 4019 */
+   
+    position: absolute;
+    width: 1120px;
+    height: 220px;
+    left: 75px;
+    top: 921px;
+   
+    background: #8F1616;
+    margin-right: 100px;
+   }
+.kotak4{
+    /* Rectangle 4019 */
+   
+    position: absolute;
+    width: 1120px;
+    height: 220px;
+    left: 75px;
+    top: 1257px;
+   
+    background: #8F1616;
+    margin-right: 100px;
+   }
+kotak {
+    color: white;
+}

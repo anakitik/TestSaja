@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Perpustaan Sekolah</title>
+</head>
+<body>
+  <link rel="stylesheet" type="text/css" href="halaman login.css">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center><h2 style="color: white;"> BOOKSTELK </h2></center>
+<center><button onclick="document.getElementById('id01').style.display='block'" 
+                  style="width:auto; align:center">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" 
+        action="/action_page.php" 
+        method="post">
+    <div class="container">
+      <label for="email"><b>Username</b></label>
+      <input style="background-color: #1B1B23; color: #fefefe;" 
+              type="text" 
+              placeholder="Email" 
+              name="email" required>
+
+      <label for="pass"><b>Password</b></label>
+      <input style="background-color: #1B1B23; color: #fefefe;" 
+              type="password" 
+              placeholder="password" 
+              name="pass" required>
+ 
+      <label>
+        <input type="checkbox" 
+            checked="checked" 
+               name="remember"> Ingat Saya
+      </label>
+
+      <button><a href="halaman utama.html" style="color: #fefefe;">Log-in</a></button>
+
+    </div>
+  </form>
+</div>
+
+
+<script>
+
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
